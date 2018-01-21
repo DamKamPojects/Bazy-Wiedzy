@@ -1,0 +1,12 @@
+chleb,pieczywo,false,0
+maslo,nabial,false,1
+ser,nabial,false,2
+platki,pszenne,false,3
+mleko,nabial,false,4
+makaron,produkt m¹czny,false,5
+sos pomidorowy,sosy,false,6
+maka,produkt maczny,false,7
+olej,oleje,false,8
+jajka,nabial,false,9
+sol,przyprawy,false,10
+pieprz,przyprawy,false,11

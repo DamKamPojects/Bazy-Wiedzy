@@ -1,0 +1,6 @@
+Kanapka,5 min,chleb|1|kromka-maslo||troche-ser|1|plaster-,0
+Platki,2'min,platki||troche-mleko|200|ml,1
+Spaghetti,15'min,makaron|200|gram-sos pomidorowy|150|ml-ser|50|gram,2
+Nalesniki,30'min,maka|150|g-mleko|200|ml-olej|2|lyzki-jajka|2|-sol|1|szczypta,3
+blabla,10 min,jajka||2-makaron||troche-,4
+costam,10 min,maka||troche-,5

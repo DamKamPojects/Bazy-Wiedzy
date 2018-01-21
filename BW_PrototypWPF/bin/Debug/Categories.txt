@@ -1,0 +1,9 @@
+0,pieczywo
+1,nabial
+2,pszenne
+3,produkt maczny
+4,sosy
+5,oleje
+6,przyprawy
+7,produkt pseudomiesny
+8,mieso drobiowe

@@ -1,0 +1,15 @@
+chleb,pieczywo,False,0
+maslo,nabial,False,1
+ser,nabial,False,2
+platki,pszenne,False,3
+mleko,nabial,False,4
+makaron,produkt maczny,False,5
+sos pomidorowy,sosy,False,6
+maka,produkt maczny,False,7
+olej,oleje,False,8
+jajka,nabial,False,9
+sol,przyprawy,False,10
+pieprz,przyprawy,False,11
+parowka,produkt pseudomiesny,True,12
+piers z kurczaka,mieso drobiowe,True,13
+uga,nabial,True,14
