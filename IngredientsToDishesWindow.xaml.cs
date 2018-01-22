@@ -42,7 +42,7 @@ namespace BW_PrototypWPF
             //dishes = main.dishes;
             ingredients = new IngredientHandler();
             dishes = new DishHandler(ingredients.IngDict);
-            DObs = dishes.GetObservableList(dishes.DishList);
+            //DObs = dishes.GetObservableList(dishes.DishList);
             IObs = ingredients.GetObservableList(ingredients.IngList);
             All = all;
             IngredientsListView.ItemsSource = IObs;
@@ -72,7 +72,7 @@ namespace BW_PrototypWPF
         private void Wybrane_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             var Hh = Wybrane.SelectedIndex;
-            var Dd = new DishDetails(dishes.DishList[Hh], dishes);
+            var Dd = new DishDetails(DObs[Hh], dishes);
             Dd.ShowDialog();
         }
 
@@ -109,13 +109,29 @@ namespace BW_PrototypWPF
         {
             if (all == true)
             {
-                if (cbox_Vegan.IsChecked == false) Wybrane.ItemsSource = dishes.GetObservableList(dishes.GetDishesWithAllSelectedIngredients(input.ToList()));
-                else Wybrane.ItemsSource = dishes.GetObservableList(dishes.GetVeganDishesWithAllSelectedIngredients(input.ToList()));
+                if (cbox_Vegan.IsChecked == false)
+                {
+                    DObs = dishes.GetObservableList(dishes.GetDishesWithAllSelectedIngredients(input.ToList()));
+                    Wybrane.ItemsSource = DObs;
+                }
+                else
+                {
+                    DObs = dishes.GetObservableList(dishes.GetVeganDishesWithAllSelectedIngredients(input.ToList()));
+                    Wybrane.ItemsSource = DObs;
+                }
             }
             else
             {
-                if (cbox_Vegan.IsChecked == false) Wybrane.ItemsSource = dishes.GetObservableList(dishes.GetDishesWithSelectedIngredients(input.ToList()));
-                else Wybrane.ItemsSource = dishes.GetObservableList(dishes.GetVeganDishesWithSelectedIngredients(input.ToList()));
+                if (cbox_Vegan.IsChecked == false)
+                {
+                    DObs = dishes.GetObservableList(dishes.GetDishesWithSelectedIngredients(input.ToList()));
+                    Wybrane.ItemsSource = DObs;
+                }
+                else
+                {
+                    DObs = dishes.GetObservableList(dishes.GetVeganDishesWithSelectedIngredients(input.ToList()));
+                    Wybrane.ItemsSource = DObs;
+                }
             }
         }
     }
