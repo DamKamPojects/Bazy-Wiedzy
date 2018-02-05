@@ -13,5 +13,3 @@ pieprz,6,False,11
 parówka,7,True,14
 sos pesto,4,False,15
 pierœ z kurczaka,8,True,16
-ascasd,1,False,17
-aniewege,5,True,18

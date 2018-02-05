@@ -4,3 +4,4 @@ Spaghetti,15 min,5|200|gram-6|150|ml-2|50|gram-,2
 Nalesniki,30 min,7|150|g-4|200|ml-8|2|³y¿ki-9|2|-10|1|szczypta-,3
 Jajecznica,10 min,14||1-9||2-1||trochê-,6
 Pesto,30 min,5|200|gram-16|400|gram-15||pó³ s³oika-,9
+,,,10
